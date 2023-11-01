@@ -30,8 +30,12 @@
       "caDocTypeId": "1e69cb95-b264-46bc-b9da-ba583a9941e6"
     }
   ],
-  "ba_caDefinitions": "",
+  "ba_caDefinitions": "caDefinitions.json",
   "ba_caProjectDescriptor": "73bcc591-60ba-420c-a397-98b0b165d515",
-  "ba_snapshotName": "",
-  "ba_versionId": ""
+  "ba_snapshotName": "v1-2023-11-01-2032",
+  "ba_versionId": "72470ffb-f3e6-4c42-a3a7-fa351bbf905c",
+  "ba_caMLModel": "MLmodel.zip",
+  "ba_versionNotes": "2",
+  "ba_caClassificationModelTrainingId": "08657388-1154-4b77-9700-8b8b6ef4fbfb",
+  "ba_caDataExtractionModelTrainingId": "c5b175a3-33ac-4734-9999-380c3bff2695"
 }
