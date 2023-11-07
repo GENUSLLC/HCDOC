@@ -1,8 +1,8 @@
 {
   "snapshotRecord": {
-    "snapshotName": "v1-2023-11-01-2032",
-    "baVersionId": "72470ffb-f3e6-4c42-a3a7-fa351bbf905c",
-    "date": "2023-11-01T20:32:31.054Z",
-    "status": "success"
+    "snapshotName": "v2-2023-11-07-0521",
+    "baVersionId": "2f645865-eb27-45f4-ac0d-4e31e79a1c55",
+    "date": "2023-11-07T05:21:25.954Z",
+    "status": "inProgress"
   }
 }
