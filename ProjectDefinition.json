@@ -38,7 +38,7 @@
   "ba_versionNotes": "4",
   "ba_caClassificationModelTrainingId": "6115ddc9-16cf-4402-92c9-732dc348ab8a",
   "ba_caDataExtractionModelTrainingId": "abba3e3e-c47d-493c-aa3c-5cdb1dae3dbf",
-  "ba_caDeployedClassificationModelTrainingId": "08657388-1154-4b77-9700-8b8b6ef4fbfb",
-  "ba_caDeployedDataExtractionModelTrainingId": "c5b175a3-33ac-4734-9999-380c3bff2695",
+  "ba_caDeployedClassificationModelTrainingId": "6115ddc9-16cf-4402-92c9-732dc348ab8a",
+  "ba_caDeployedDataExtractionModelTrainingId": "abba3e3e-c47d-493c-aa3c-5cdb1dae3dbf",
   "ba_deploy_repo_id": "DEVOS1"
 }
