@@ -26,36 +26,45 @@
                         "From": {
                             "allOf": [
                                 {
-                                    "$ref": "unmapped"
+                                    "$ref": "proj://CDD/DD_cea315e1-b6d8-4e02-8e39-05132ab51ace_From.json#From"
                                 },
                                 {
                                     "caKeyClassName": "From",
                                     "caKeyClassId": "9862182f-dad7-453c-945e-1e6fad37d085",
-                                    "caValueType": "text"
+                                    "caValueType": "text",
+                                    "type": [
+                                        "string"
+                                    ]
                                 }
                             ]
                         },
                         "To": {
                             "allOf": [
                                 {
-                                    "$ref": "unmapped"
+                                    "$ref": "proj://CDD/DD_76ed923c-14a0-415c-a3c6-6df1c739621a_To.json#To"
                                 },
                                 {
                                     "caKeyClassName": "To",
                                     "caKeyClassId": "c94a5f13-c94f-4669-9feb-1e3fc73fab0e",
-                                    "caValueType": "text"
+                                    "caValueType": "text",
+                                    "type": [
+                                        "string"
+                                    ]
                                 }
                             ]
                         },
                         "Subject": {
                             "allOf": [
                                 {
-                                    "$ref": "unmapped"
+                                    "$ref": "proj://CDD/DD_11fc61d6-63f5-410f-978c-813e369e3489_Subject.json#Subject"
                                 },
                                 {
                                     "caKeyClassName": "Subject",
                                     "caKeyClassId": "c8a57561-de07-40a3-bb81-5518c4dbe29c",
-                                    "caValueType": "text"
+                                    "caValueType": "text",
+                                    "type": [
+                                        "string"
+                                    ]
                                 }
                             ]
                         },

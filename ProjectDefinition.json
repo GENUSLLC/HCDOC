@@ -1,44 +1,53 @@
 {
-  "$schema": "http://json-schema.org/schema#",
-  "$id": "http://www.ibm.com/dba/solutions/solution1/HCDOC/ProjectDefinition.json",
-  "title": "HCDOC",
-  "ba_description": "",
-  "ba_type": "content",
-  "ba_repoPrimaryKey": "HCDOC",
-  "ba_expectedDocTypes": 0,
-  "ba_id": "a4ad596f-8ceb-4a6b-b821-a57e3bd36557",
-  "ba_dataDefinitions": [],
-  "ba_contentDefinitions": [
-    {
-      "$ref": "CD_UtilityBill.json",
-      "title": "Utility Bill",
-      "caDocTypeId": "a2827178-33da-403b-aaa8-b0bb3b820959"
-    },
-    {
-      "$ref": "CD_BillOfLading.json",
-      "title": "Bill of Lading",
-      "caDocTypeId": "63842cbd-c858-4a5d-955c-7825edb7da25"
-    },
-    {
-      "$ref": "CD_Invoice.json",
-      "title": "Invoice",
-      "caDocTypeId": "b65d6596-71e0-4def-92e4-fc5e04ff4e66"
-    },
-    {
-      "$ref": "CD_Emails.json",
-      "title": "Emails",
-      "caDocTypeId": "1e69cb95-b264-46bc-b9da-ba583a9941e6"
-    }
-  ],
-  "ba_caDefinitions": "caDefinitions.json",
-  "ba_caProjectDescriptor": "73bcc591-60ba-420c-a397-98b0b165d515",
-  "ba_snapshotName": "v4-2023-11-08-0528",
-  "ba_versionId": "2b7bdd5d-6d75-4005-bf40-b814fc34cf23",
-  "ba_caMLModel": "MLmodel.zip",
-  "ba_versionNotes": "note1",
-  "ba_caClassificationModelTrainingId": "6115ddc9-16cf-4402-92c9-732dc348ab8a",
-  "ba_caDataExtractionModelTrainingId": "abba3e3e-c47d-493c-aa3c-5cdb1dae3dbf",
-  "ba_caDeployedClassificationModelTrainingId": "6115ddc9-16cf-4402-92c9-732dc348ab8a",
-  "ba_caDeployedDataExtractionModelTrainingId": "abba3e3e-c47d-493c-aa3c-5cdb1dae3dbf",
-  "ba_deploy_repo_id": "DEVOS1"
+    "$schema": "http://json-schema.org/schema#",
+    "$id": "http://www.ibm.com/dba/solutions/solution1/HCDOC/ProjectDefinition.json",
+    "title": "HCDOC",
+    "ba_description": "",
+    "ba_type": "content",
+    "ba_repoPrimaryKey": "HCDOC",
+    "ba_id": "a4ad596f-8ceb-4a6b-b821-a57e3bd36557",
+    "ba_expectedDocTypes": 0,
+    "ba_dataDefinitions": [
+        {
+            "$ref": "proj://CDD/DD_cea315e1-b6d8-4e02-8e39-05132ab51ace_From.json",
+            "title": "From"
+        },
+        {
+            "$ref": "proj://CDD/DD_76ed923c-14a0-415c-a3c6-6df1c739621a_To.json",
+            "title": "To"
+        },
+        {
+            "$ref": "proj://CDD/DD_11fc61d6-63f5-410f-978c-813e369e3489_Subject.json",
+            "title": "Subject"
+        }
+    ],
+    "ba_contentDefinitions": [
+        {
+            "$ref": "CD_UtilityBill.json",
+            "title": "Utility Bill",
+            "caDocTypeId": "a2827178-33da-403b-aaa8-b0bb3b820959"
+        },
+        {
+            "$ref": "CD_BillOfLading.json",
+            "title": "Bill of Lading",
+            "caDocTypeId": "63842cbd-c858-4a5d-955c-7825edb7da25"
+        },
+        {
+            "$ref": "CD_Invoice.json",
+            "title": "Invoice",
+            "caDocTypeId": "b65d6596-71e0-4def-92e4-fc5e04ff4e66"
+        },
+        {
+            "$ref": "CD_Emails.json",
+            "title": "Emails",
+            "caDocTypeId": "1e69cb95-b264-46bc-b9da-ba583a9941e6"
+        }
+    ],
+    "ba_caDefinitions": "caDefinitions.json",
+    "ba_caProjectDescriptor": "73bcc591-60ba-420c-a397-98b0b165d515",
+    "ba_caMLModel": "MLmodel.zip",
+    "ba_snapshotName": "v4-2023-11-08-0528",
+    "ba_versionNotes": "note1",
+    "ba_versionId": "2b7bdd5d-6d75-4005-bf40-b814fc34cf23",
+    "ba_deploy_repo_id": "DEVOS1"
 }
